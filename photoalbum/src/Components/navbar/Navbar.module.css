@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #a0a0f9;
+    height: 70px;
+}
+.navLogo{
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    margin-left: 50px;
+    height: 100%;
+    gap: 10px;
+}
+.navLogo img{
+    height: 70%;
+}

@@ -1,0 +1,66 @@
+.imageList {
+  width: 90%;
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem auto;
+  box-sizing: border-box;
+}
+
+.nav {
+  width:90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 5vmin;
+  font-weight: 700;
+  cursor: pointer;
+}
+.SearchBox {
+  
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.searchInput {
+  height: 2rem;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+.addButton {
+  box-sizing: border-box;
+  border: 2px solid #07f;
+  border-radius: 5px;
+  color: #07f;
+  cursor: pointer;
+  font-weight: 900;
+  outline: none;
+  padding: 5px 5px;
+  overflow-x: hidden;
+}
+.cancelButton {
+  border: 2px solid #ff1300;
+  border-radius: 5px;
+  color: #ff1300;
+  cursor: pointer;
+  font-weight: 900;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.boxContainer {
+  display: grid;
+  grid-auto-flow: row;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(auto-fit, minmax(175px, 0.5fr));
+  grid-template-rows: repeat(1, 150px);
+  gap: 15px;
+  margin-top:2rem;
+}
+

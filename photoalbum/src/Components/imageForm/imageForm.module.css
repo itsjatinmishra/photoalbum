@@ -1,0 +1,71 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 18rem;
+    background-color: #eeeeee;
+    border-radius: 1rem;
+    margin: 3rem
+}
+.imageForm{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 85%;
+    box-sizing: border-box;
+}
+.input{
+    width: 90%;
+    height: 3rem;
+    border-radius: 1.5rem;
+    outline: none;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem ;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.input:focus{
+    border: 3px solid rgb(0, 104, 201);
+}
+.btnContainer{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.clearBtn {
+    background :#ff1300;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    margin: 2%;
+}
+.addBtn{
+    background: #07f;
+    width: 6rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #ffff;
+    margin: 2%;
+}
